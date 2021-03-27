@@ -1,0 +1,54 @@
+
+.page-holder {
+    min-height: 100vh;
+
+  }
+  
+  .bg-cover {
+    background-size: cover !important;
+  }
+  button{
+    width:150px;
+    height: 50px;
+    background-color:black ;
+    color:greenyellow;
+    position: absolute;
+    top:450px;
+    font-weight: bold;
+    border-radius: 30px;
+    border:3px solid greenyellow;  
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+  }
+ h1{ 
+ font-size:4rem ;
+    border-radius: 10px;
+      margin-top: 200px;
+    background-color:greenyellow;
+    color:black;
+  }
+  h3{ 
+    font-size:2rem ;
+       border-radius: 10px;
+       background-color:greenyellow;
+       color:black;
+     }
+    img{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 70px;
+    }
+    a{
+        color:greenyellow;
+        text-decoration: none;
+    }
+    a:hover{
+        color:greenyellow;
+    }
