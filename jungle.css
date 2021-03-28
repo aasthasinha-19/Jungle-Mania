@@ -103,6 +103,16 @@ padding-bottom: 30px;
     opacity: 0.93;
   
 }
+.thanks{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,93,1) 100%);
+  
+  font-size: large;
+  font-weight: bold;
+}
 @media screen and (max-width:680px){
     .header{
       min-height: 200px;
